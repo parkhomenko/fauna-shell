@@ -95,10 +95,10 @@ workflows:
   build_and_test:
     jobs:
       - core-stable-10:
-          context: fauna-shell
+          context: faunadb-drivers
       - core-nightly-10:
-          context: fauna-shell
+          context: faunadb-drivers
       - core-stable-11:
-          context: fauna-shell
+          context: faunadb-drivers
       - core-nightly-11:
-          context: fauna-shell
+          context: faunadb-drivers
